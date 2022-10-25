@@ -1,0 +1,2583 @@
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES ('{$qt_details[1]}','{$qt_details[1]}') WHERE(SELECT `particiapnt_id` FROM participants WHERE `name`='{qt_details[0]}')";
+     41▕         unlink("participant.txt");
+     42▕  
+     43▕         if($conn->query($sql)===TRUE) {
+     44▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES ('{$qt_details[1]}','{$qt_details[1]}') WHERE `participant_id` =(SELECT `particiapnt_id` FROM participants WHERE `name`='{qt_details[0]}' )";
+     41▕         unlink("participant.txt");
+     42▕  
+     43▕         if($conn->query($sql)===TRUE) {
+     44▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES ('{$qt_details[1]}','{$qt_details[1]}') WHERE `participant_id` =(SELECT `particiapnt_id` FROM participants WHERE `name`='{$qt_details[0]}' )";
+     41▕         unlink("participant.txt");
+     42▕  
+     43▕         if($conn->query($sql)===TRUE) {
+     44▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES ('{$qt_details[1]}','{$qt_details[1]}') WHERE `participant_id` =(SELECT `particiapnt_id` FROM participants WHERE `name`='{$qt_details[0]}' )";
+     42▕         unlink("participant.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES ('{$qt_details[1]}','{$qt_details[1]}') WHERE `participant_id` =(SELECT `particiapnt_id` FROM participants WHERE `name`='{$qt_details[0]}' )";
+     42▕         unlink("participant.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES ('{$qt_details[1]}','{$qt_details[1]}') WHERE `participant_id` =(SELECT `particiapnt_id` FROM participants WHERE `name`='{$qt_details[0]}' )";
+     42▕         unlink("participant.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES ('{$qt_details[1]}','{$qt_details[1]}') WHERE `participant_id` =(SELECT `particiapnt_id` FROM participants WHERE `name`='{$qt_details[0]}' )";
+     42▕         unlink("participant.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES ('{$qt_details[1]}','{$qt_details[1]}') WHERE `participant_id` =(SELECT `particiapnt_id` FROM participants WHERE `name`='{$qt_details[0]}' )";
+     42▕         unlink("participant.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:43
+     39▕ 
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES ('2','3') WHERE `product_id`='1'";
+     42▕         // $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES ('{$qt_details[1]}','{$qt_details[1]}') WHERE `participant_id` =(SELECT `particiapnt_id` FROM participants WHERE `name`='{$qt_details[0]}' )";
+  ➜  43▕         unlink("participant.txt");
+     44▕  
+     45▕         if($conn->query($sql)===TRUE) {
+     46▕          echo "Stock quantity added";
+     47▕         } else {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:43
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  unlink(addproduct.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:43
+     39▕ 
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES ('2','3') WHERE `product_id`='1'";
+     42▕         // $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES ('{$qt_details[1]}','{$qt_details[1]}') WHERE `participant_id` =(SELECT `particiapnt_id` FROM participants WHERE `name`='{$qt_details[0]}' )";
+  ➜  43▕         unlink("addproduct.txt");
+     44▕  
+     45▕         if($conn->query($sql)===TRUE) {
+     46▕          echo "Stock quantity added";
+     47▕         } else {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:43
+      unlink("addproduct.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `product_id`='1'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:45
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES ('2','3') WHERE `product_id`='1'";
+     42▕         // $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES ('{$qt_details[1]}','{$qt_details[1]}') WHERE `participant_id` =(SELECT `particiapnt_id` FROM participants WHERE `name`='{$qt_details[0]}' )";
+     43▕         // unlink("addproduct.txt");
+     44▕  
+  ➜  45▕         if($conn->query($sql)===TRUE) {
+     46▕          echo "Stock quantity added";
+     47▕         } else {
+     48▕          echo "Error".$sql. "<br>". $conn->error;
+     49▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:45
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES ('2','3') WHERE `product_id`='1'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `product_id`=1' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:45
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES (2,3) WHERE `product_id`=1";
+     42▕         // $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES ('{$qt_details[1]}','{$qt_details[1]}') WHERE `participant_id` =(SELECT `particiapnt_id` FROM participants WHERE `name`='{$qt_details[0]}' )";
+     43▕         // unlink("addproduct.txt");
+     44▕  
+  ➜  45▕         if($conn->query($sql)===TRUE) {
+     46▕          echo "Stock quantity added";
+     47▕         } else {
+     48▕          echo "Error".$sql. "<br>". $conn->error;
+     49▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:45
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES (2,3) WHERE `product_id`=1")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `product_id`=1' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:45
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES (2,3) WHERE `product_id`=1";
+     42▕         // $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES ('{$qt_details[1]}','{$qt_details[1]}') WHERE `participant_id` =(SELECT `particiapnt_id` FROM participants WHERE `name`='{$qt_details[0]}' )";
+     43▕         // unlink("addproduct.txt");
+     44▕  
+  ➜  45▕         if($conn->query($sql)===TRUE) {
+     46▕          echo "Stock quantity added";
+     47▕         } else {
+     48▕          echo "Error".$sql. "<br>". $conn->error;
+     49▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:45
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES (2,3) WHERE `product_id`=1")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `product_id`=1' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:45
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES (2,3) WHERE `product_id`=1";
+     42▕         // $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES ('{$qt_details[1]}','{$qt_details[1]}') WHERE `participant_id` =(SELECT `particiapnt_id` FROM participants WHERE `name`='{$qt_details[0]}' )";
+     43▕         // unlink("addproduct.txt");
+     44▕  
+  ➜  45▕         if($conn->query($sql)===TRUE) {
+     46▕          echo "Stock quantity added";
+     47▕         } else {
+     48▕          echo "Error".$sql. "<br>". $conn->error;
+     49▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:45
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES (2,3) WHERE `product_id`=1")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `product_id`=1' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:45
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES (2,3) WHERE `product_id`=1";
+     42▕         // $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES ('{$qt_details[1]}','{$qt_details[1]}') WHERE `participant_id` =(SELECT `particiapnt_id` FROM participants WHERE `name`='{$qt_details[0]}' )";
+     43▕         // unlink("addproduct.txt");
+     44▕  
+  ➜  45▕         if($conn->query($sql)===TRUE) {
+     46▕          echo "Stock quantity added";
+     47▕         } else {
+     48▕          echo "Error".$sql. "<br>". $conn->error;
+     49▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:45
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES (2,3) WHERE `product_id`=1")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `product_id`=1' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:45
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES (2,3) WHERE `product_id`=1";
+     42▕         // $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES ('{$qt_details[1]}','{$qt_details[1]}') WHERE `participant_id` =(SELECT `particiapnt_id` FROM participants WHERE `name`='{$qt_details[0]}' )";
+     43▕         // unlink("addproduct.txt");
+     44▕  
+  ➜  45▕         if($conn->query($sql)===TRUE) {
+     46▕          echo "Stock quantity added";
+     47▕         } else {
+     48▕          echo "Error".$sql. "<br>". $conn->error;
+     49▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:45
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES (2,3) WHERE `product_id`=1")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `product_id`=1' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:45
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES (2,3) WHERE `product_id`=1";
+     42▕         // $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES ('{$qt_details[1]}','{$qt_details[1]}') WHERE `participant_id` =(SELECT `particiapnt_id` FROM participants WHERE `name`='{$qt_details[0]}' )";
+     43▕         // unlink("addproduct.txt");
+     44▕  
+  ➜  45▕         if($conn->query($sql)===TRUE) {
+     46▕          echo "Stock quantity added";
+     47▕         } else {
+     48▕          echo "Error".$sql. "<br>". $conn->error;
+     49▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:45
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES (2,3) WHERE `product_id`=1")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  No connection could be made because the target machine actively refused it
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:31
+     27▕      * @return int
+     28▕      */
+     29▕     public function handle()
+     30▕     {
+  ➜  31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         
+     33▕         if(file_exists("addproduct.txt")){
+     34▕          $addquantity=file_get_contents("addproduct.txt");
+     35▕         } else {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:31
+      mysqli::__construct("localhost", "root", "", "myanka")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='23'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='23'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   mysqli_sql_exception 
+
+  You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `participant_id`='235'' at line 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         
+     41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+  ➜  44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+     46▕         } else {
+     47▕          echo "Error".$sql. "<br>". $conn->error;
+     48▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+      mysqli::query("INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='235'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+File doesnot existFile doesnot exist
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES() WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES('') WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         
+  ➜  41▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES('') WHERE `participant_id`='{$qt_details[1]}'";
+     42▕         
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:41
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ParseError 
+
+  syntax error, unexpected variable "$sql"
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:42
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         $sql2="SELECT `stock_quantity`,`quantity_published` FROM products WHERE `participant_id`='{$qt_details[1]}'";
+     41▕         $ar
+  ➜  42▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES('') WHERE `participant_id`='{$qt_details[1]}'";
+     43▕         
+     44▕  
+     45▕         if($conn->query($sql)===TRUE) {
+     46▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\vendor\composer\ClassLoader.php:428
+      Composer\Autoload\includeFile("C:\xampp\htdocs\anka\vendor\composer/../../app/Console/Commands/addStock.php")
+
+  2   [internal]:0
+      Composer\Autoload\ClassLoader::loadClass("App\Console\Commands\addStock")
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+  ➜  40▕         $sql2="SELECT `stock_quantity`,`quantity_published` FROM products WHERE `participant_id`='{$qt_details[1]}'";
+     41▕         $result =$conn->query($sql2);
+     42▕         if($result->num_rows > 0){
+     43▕             
+     44▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+  ➜  40▕         $sql2="SELECT `stock_quantity`,`quantity_published` FROM products WHERE `participant_id`='{$qt_details[1]}'";
+     41▕         $result =$conn->query($sql2);
+     42▕         if($result->num_rows > 0){
+     43▕             while($row=$result->fetch_assoc()){
+     44▕                 $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES('') WHERE `participant_id`='{$qt_details[1]}'";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+  ➜  40▕         $sql2="SELECT `stock_quantity`,`quantity_published` FROM products WHERE `participant_id`='{$qt_details[1]}'";
+     41▕         $result =$conn->query($sql2);
+     42▕         if($result->num_rows > 0){
+     43▕             while($row=$result->fetch_assoc()){
+     44▕                 $sql ="UPDATE products (`stock_quantity`,`quantity_published`) VALUES('') WHERE `participant_id`='{$qt_details[1]}'";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+  ➜  40▕         $sql2="SELECT `stock_quantity`,`quantity_published` FROM products WHERE `participant_id`='{$qt_details[1]}'";
+     41▕         $result =$conn->query($sql2);
+     42▕         if($result->num_rows > 0){
+     43▕             while($row=$result->fetch_assoc()){
+     44▕                 $sql ="UPDATE products
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+  ➜  40▕         $sql2="SELECT `stock_quantity`,`quantity_published` FROM products WHERE `participant_id`='{$qt_details[1]}'";
+     41▕         $result =$conn->query($sql2);
+     42▕         if($result->num_rows > 0){
+     43▕             while($row=$result->fetch_assoc()){
+     44▕                 $sql ="UPDATE products
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\addStock.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\addStock::handle()

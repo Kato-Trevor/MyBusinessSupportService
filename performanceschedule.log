@@ -1,0 +1,3675 @@
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  file_get_contents(performnace.txt): Failed to open stream: No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+     29▕     public function handle()
+     30▕     {
+     31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         if(file_exists("performance.txt")){
+  ➜  33▕           $perform=file_get_contents("performnace.txt");
+     34▕          }else {
+     35▕           die("File doesnot exist");
+     36▕          }
+     37▕          $array=explode(";",$perform);
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:33
+      file_get_contents("performnace.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   mysqli_sql_exception 
+
+  Unknown column 'points' in 'field list'
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM products WHERE `name`='{$array[0]}'";
+     39▕         
+  ➜  40▕         $result = $conn->query($sql);
+     41▕         if ($result->num_rows > 0) {
+     42▕          
+     43▕           $myfile = fopen("participantPerforamnce.txt", "a") or die("Unable to open file");
+     44▕
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      mysqli::query("SELECT `points` FROM products WHERE `name`=''")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   mysqli_sql_exception 
+
+  Unknown column 'points' in 'field list'
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM products WHERE `name`='{$array[0]}'";
+     39▕         
+  ➜  40▕         $result = $conn->query($sql);
+     41▕         if ($result->num_rows > 0) {
+     42▕          
+     43▕           $myfile = fopen("participantPerforamnce.txt", "a") or die("Unable to open file");
+     44▕
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      mysqli::query("SELECT `points` FROM products WHERE `name`=''")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   mysqli_sql_exception 
+
+  Unknown column 'points' in 'field list'
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM products WHERE `name`='{$array[0]}'";
+     39▕         
+  ➜  40▕         $result = $conn->query($sql);
+     41▕         if ($result->num_rows > 0) {
+     42▕          
+     43▕           $myfile = fopen("participantPerforamnce.txt", "a") or die("Unable to open file");
+     44▕
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      mysqli::query("SELECT `points` FROM products WHERE `name`=''")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   mysqli_sql_exception 
+
+  Unknown column 'points' in 'field list'
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM products WHERE `name`='{$array[0]}'";
+     39▕         
+  ➜  40▕         $result = $conn->query($sql);
+     41▕         if ($result->num_rows > 0) {
+     42▕          
+     43▕           $myfile = fopen("participantPerforamnce.txt", "a") or die("Unable to open file");
+     44▕
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      mysqli::query("SELECT `points` FROM products WHERE `name`=''")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   mysqli_sql_exception 
+
+  Unknown column 'points' in 'field list'
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM products WHERE `name`='{$array[0]}'";
+     39▕         
+  ➜  40▕         $result = $conn->query($sql);
+     41▕         if ($result->num_rows > 0) {
+     42▕          
+     43▕           $myfile = fopen("participantPerforamnce.txt", "a") or die("Unable to open file");
+     44▕
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      mysqli::query("SELECT `points` FROM products WHERE `name`=''")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   mysqli_sql_exception 
+
+  Unknown column 'points' in 'field list'
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM products WHERE `name`='{$array[0]}'";
+     39▕         
+  ➜  40▕         $result = $conn->query($sql);
+     41▕         if ($result->num_rows > 0) {
+     42▕          
+     43▕           $myfile = fopen("participantPerforamnce.txt", "a") or die("Unable to open file");
+     44▕
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      mysqli::query("SELECT `points` FROM products WHERE `name`=''")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   mysqli_sql_exception 
+
+  Unknown column 'points' in 'field list'
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM products WHERE `name`='{$array[0]}'";
+     39▕         
+  ➜  40▕         $result = $conn->query($sql);
+     41▕         if ($result->num_rows > 0) {
+     42▕          
+     43▕           $myfile = fopen("participantPerforamnce.txt", "a") or die("Unable to open file");
+     44▕
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      mysqli::query("SELECT `points` FROM products WHERE `name`=''")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   mysqli_sql_exception 
+
+  Unknown column 'points' in 'field list'
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM products WHERE `name`='{$array[0]}'";
+     39▕         
+  ➜  40▕         $result = $conn->query($sql);
+     41▕         if ($result->num_rows > 0) {
+     42▕          
+     43▕           $myfile = fopen("participantPerforamnce.txt", "a") or die("Unable to open file");
+     44▕
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      mysqli::query("SELECT `points` FROM products WHERE `name`='Kato_Trevor'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   mysqli_sql_exception 
+
+  Unknown column 'points' in 'field list'
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM products WHERE `name`='{$array[0]}'";
+     39▕         
+  ➜  40▕         $result = $conn->query($sql);
+     41▕         if ($result->num_rows > 0) {
+     42▕          
+     43▕           $myfile = fopen("participantPerforamnce.txt", "a") or die("Unable to open file");
+     44▕
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      mysqli::query("SELECT `points` FROM products WHERE `name`='Kato_Trevor'")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ParseError 
+
+  syntax error, unexpected variable "$sql"
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:42
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         $sql2="SELECT `stock_quantity`,`quantity_published` FROM products WHERE `participant_id`='{$qt_details[1]}'";
+     41▕         $ar
+  ➜  42▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES('') WHERE `participant_id`='{$qt_details[1]}'";
+     43▕         
+     44▕  
+     45▕         if($conn->query($sql)===TRUE) {
+     46▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\vendor\composer\ClassLoader.php:428
+      Composer\Autoload\includeFile("C:\xampp\htdocs\anka\vendor\composer/../../app/Console/Commands/addStock.php")
+
+  2   [internal]:0
+      Composer\Autoload\ClassLoader::loadClass("App\Console\Commands\addStock")
+
+   ParseError 
+
+  syntax error, unexpected token "}", expecting "("
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:44
+     40▕         $sql2="SELECT `stock_quantity`,`quantity_published` FROM products WHERE `participant_id`='{$qt_details[1]}'";
+     41▕         $result =$conn->query($sql2);
+     42▕         if($result->num_rows > 0){
+     43▕             while
+  ➜  44▕         }
+     45▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES('') WHERE `participant_id`='{$qt_details[1]}'";
+     46▕         
+     47▕  
+     48▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\vendor\composer\ClassLoader.php:428
+      Composer\Autoload\includeFile("C:\xampp\htdocs\anka\vendor\composer/../../app/Console/Commands/addStock.php")
+
+  2   [internal]:0
+      Composer\Autoload\ClassLoader::loadClass("App\Console\Commands\addStock")
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+     57▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     58▕             
+     59▕             }
+     60▕             gc_collect_cycles();
+  ➜  61▕             unlink("participant.txt");
+     62▕             
+     63▕           $conn->close();
+     64▕         }
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:61
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+     58▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     59▕             
+     60▕             }
+     61▕             gc_collect_cycles();
+  ➜  62▕             unlink("participant.txt");
+     63▕             
+     64▕           $conn->close();
+     65▕         }
+     66▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+     58▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     59▕             
+     60▕             }
+     61▕             gc_collect_cycles();
+  ➜  62▕             unlink("participant.txt");
+     63▕             
+     64▕           $conn->close();
+     65▕         }
+     66▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+     58▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     59▕             
+     60▕             }
+     61▕             gc_collect_cycles();
+  ➜  62▕             unlink("participant.txt");
+     63▕             
+     64▕           $conn->close();
+     65▕         }
+     66▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+     58▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     59▕             
+     60▕             }
+     61▕             gc_collect_cycles();
+  ➜  62▕             unlink("participant.txt");
+     63▕             
+     64▕           $conn->close();
+     65▕         }
+     66▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+     58▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     59▕             
+     60▕             }
+     61▕             gc_collect_cycles();
+  ➜  62▕             unlink("participant.txt");
+     63▕             
+     64▕           $conn->close();
+     65▕         }
+     66▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+     58▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     59▕             
+     60▕             }
+     61▕             gc_collect_cycles();
+  ➜  62▕             unlink("participant.txt");
+     63▕             
+     64▕           $conn->close();
+     65▕         }
+     66▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+     58▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     59▕             
+     60▕             }
+     61▕             gc_collect_cycles();
+  ➜  62▕             unlink("participant.txt");
+     63▕             
+     64▕           $conn->close();
+     65▕         }
+     66▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+     58▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     59▕             
+     60▕             }
+     61▕             gc_collect_cycles();
+  ➜  62▕             unlink("participant.txt");
+     63▕             
+     64▕           $conn->close();
+     65▕         }
+     66▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+     58▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     59▕             
+     60▕             }
+     61▕             gc_collect_cycles();
+  ➜  62▕             unlink("participant.txt");
+     63▕             
+     64▕           $conn->close();
+     65▕         }
+     66▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+     58▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     59▕             
+     60▕             }
+     61▕             gc_collect_cycles();
+  ➜  62▕             unlink("participant.txt");
+     63▕             
+     64▕           $conn->close();
+     65▕         }
+     66▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+     58▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     59▕             
+     60▕             }
+     61▕             gc_collect_cycles();
+  ➜  62▕             unlink("participant.txt");
+     63▕             
+     64▕           $conn->close();
+     65▕         }
+     66▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+     58▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     59▕             
+     60▕             }
+     61▕             gc_collect_cycles();
+  ➜  62▕             unlink("participant.txt");
+     63▕             
+     64▕           $conn->close();
+     65▕         }
+     66▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+     58▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     59▕             
+     60▕             }
+     61▕             gc_collect_cycles();
+  ➜  62▕             unlink("participant.txt");
+     63▕             
+     64▕           $conn->close();
+     65▕         }
+     66▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+     58▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     59▕             
+     60▕             }
+     61▕             gc_collect_cycles();
+  ➜  62▕             unlink("participant.txt");
+     63▕             
+     64▕           $conn->close();
+     65▕         }
+     66▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+     58▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     59▕             
+     60▕             }
+     61▕             gc_collect_cycles();
+  ➜  62▕             unlink("participant.txt");
+     63▕             
+     64▕           $conn->close();
+     65▕         }
+     66▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participant.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+     58▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     59▕             
+     60▕             }
+     61▕             gc_collect_cycles();
+  ➜  62▕             unlink("participant.txt");
+     63▕             
+     64▕           $conn->close();
+     65▕         }
+     66▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+      unlink("participant.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(performance.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+     58▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     59▕             
+     60▕             }
+     61▕             gc_collect_cycles();
+  ➜  62▕             unlink("performance.txt");
+     63▕             
+     64▕           $conn->close();
+     65▕         }
+     66▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+      unlink("performance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(performance.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+     58▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     59▕             
+     60▕             }
+     61▕             gc_collect_cycles();
+  ➜  62▕             unlink("performance.txt");
+     63▕             
+     64▕           $conn->close();
+     65▕         }
+     66▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+      unlink("performance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(performance.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+     58▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     59▕             
+     60▕             }
+     61▕             gc_collect_cycles();
+  ➜  62▕             unlink("performance.txt");
+     63▕             
+     64▕           $conn->close();
+     65▕         }
+     66▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+      unlink("performance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(performance.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+     58▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     59▕             
+     60▕             }
+     61▕             gc_collect_cycles();
+  ➜  62▕             unlink("performance.txt");
+     63▕             
+     64▕           $conn->close();
+     65▕         }
+     66▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+      unlink("performance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(performance.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+     58▕             fwrite($myfile,"Quantity_left:".$row["stock_quantity"]." ");
+     59▕             
+     60▕             }
+     61▕             gc_collect_cycles();
+  ➜  62▕             unlink("performance.txt");
+     63▕             
+     64▕           $conn->close();
+     65▕         }
+     66▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:62
+      unlink("performance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+File doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot exist
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()
+
+   ErrorException 
+
+  unlink(participantPerformance.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+     36▕          }
+     37▕          $array=explode(";",$perform);
+     38▕         $sql ="SELECT `points` FROM participants WHERE `name`='{$array[0]}'";
+     39▕         gc_collect_cycles();
+  ➜  40▕        unlink("participantPerformance.txt");
+     41▕         $result = $conn->query($sql);
+     42▕         if ($result->num_rows > 0) {
+     43▕          
+     44▕           $myfile = fopen("participantPerformance.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\performance.php:40
+      unlink("participantPerformance.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\performance::handle()

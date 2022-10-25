@@ -1,0 +1,1188 @@
+Arube_Joshua
+
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:38
+     34▕          $loginN=file_get_contents("verify.txt");
+     35▕         } else {
+     36▕             die("File doesnot exist");
+     37▕         }
+  ➜  38▕         unlink("verify.txt");
+     39▕         
+     40▕         $sql ="SELECT `password` FROM participants WHERE `name`='{$loginN}'";
+     41▕          
+     42▕
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:38
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:42
+     38▕         
+     39▕         
+     40▕         $sql ="SELECT `password` FROM participants WHERE `name`='{$loginN}'";
+     41▕          
+  ➜  42▕         unlink("verify.txt");
+     43▕         $result = $conn->query($sql);
+     44▕         // if ($result->num_rows > 0) {
+     45▕          
+     46▕           $myfile = fopen("verify2.txt", "a") or die("Unable to open file");
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:42
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+
+   TypeError 
+
+  fwrite(): Argument #2 ($data) must be of type string, mysqli_result given
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:49
+     45▕          
+     46▕           $myfile = fopen("verify2.txt", "a") or die("Unable to open file");
+     47▕             
+     48▕         //   while($row = $result->fetch_assoc()) {
+  ➜  49▕           fwrite($myfile,$result);
+     50▕         //   }
+     51▕           $conn->close();
+     52▕           unlink("verify.txt");
+     53▕         // };
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:49
+      fwrite(Object(mysqli_result))
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+
+   TypeError 
+
+  fwrite(): Argument #2 ($data) must be of type string, mysqli_result given
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:49
+     45▕          
+     46▕           $myfile = fopen("verify2.txt", "a") or die("Unable to open file");
+     47▕             
+     48▕         //   while($row = $result->fetch_assoc()) {
+  ➜  49▕           fwrite($myfile,$result);
+     50▕         //   }
+     51▕           $conn->close();
+     52▕           unlink("verify.txt");
+     53▕         // };
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:49
+      fwrite(Object(mysqli_result))
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results0 results0 results0 results0 results0 results0 results0 results0 results0 results0 results0 results0 results
+   mysqli_sql_exception 
+
+  No connection could be made because the target machine actively refused it
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:31
+     27▕      * @return int
+     28▕      */
+     29▕     public function handle()
+     30▕     {
+  ➜  31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         
+     33▕         if(file_exists("verify.txt")){
+     34▕          $loginN=file_get_contents("verify.txt");
+     35▕         } else {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:31
+      mysqli::__construct("localhost", "root", "", "myanka")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results0 results0 resultsKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevor0 results0 results0 results0 results0 results0 results0 results0 results0 results0 results0 resultsKato_Trevor;
+trevorKato_Trevor;
+trevor0 resultsFile doesnot existFile doesnot exist0 resultsKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevor0 resultsKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevor0 resultsKato_Trevor;
+trevorKato_Trevor;
+trevorKato_Trevor;
+trevorFile doesnot exist0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+Kato_Trevor;
+trevorFile doesnot existFile doesnot existFile doesnot exist0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+Kato_Trevor;
+trevorFile doesnot existFile doesnot existFile doesnot exist
+   ParseError 
+
+  syntax error, unexpected variable "$sql"
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:42
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         $sql2="SELECT `stock_quantity`,`quantity_published` FROM products WHERE `participant_id`='{$qt_details[1]}'";
+     41▕         $ar
+  ➜  42▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES('') WHERE `participant_id`='{$qt_details[1]}'";
+     43▕         
+     44▕  
+     45▕         if($conn->query($sql)===TRUE) {
+     46▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\vendor\composer\ClassLoader.php:428
+      Composer\Autoload\includeFile("C:\xampp\htdocs\anka\vendor\composer/../../app/Console/Commands/addStock.php")
+
+  2   [internal]:0
+      Composer\Autoload\ClassLoader::loadClass("App\Console\Commands\addStock")
+File doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot exist0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+Arube_Joshua;
+Josea
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+Arube_Joshua;
+Josea
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+Arube_Joshua;
+JoseaFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existArube_Joshua;
+JoseaFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot exist0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+Zalwango_Charlyn;
+mummy
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+Zalwango_Charlyn;
+mummy
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+Zalwango_Charlyn;
+mummy
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+Zalwango_Charlyn;
+mummy
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+Zalwango_Charlyn;
+mummy
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+Zalwango_Charlyn;
+mummy
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+Zalwango_Charlyn;
+mummy
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+Arube_Joshua;
+Josea
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+Arube_Joshua;
+Josea
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+Arube_Joshua;
+Josea
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+Arube_Joshua;
+Josea
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+File doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot exist0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 resultsFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot exist0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()
+0 results
+   ErrorException 
+
+  unlink(verify.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+     57▕         } else {
+     58▕           echo "0 results";
+     59▕         }
+     60▕         gc_collect_cycles();
+  ➜  61▕         unlink("verify.txt");
+     62▕         
+     63▕        
+     64▕         $conn->close();
+     65▕     }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\verification.php:61
+      unlink("verify.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\verification::handle()

@@ -1,0 +1,3242 @@
+
+   ERROR  There are no commands defined in the "product" namespace.  
+
+
+   ERROR  There are no commands defined in the "product" namespace.  
+
+
+   ErrorException 
+
+  unlink(product.txt): No such file or directory
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:39
+     35▕         }
+     36▕         $product_array=explode(";",$product_details);
+     37▕         
+     38▕         $sql ="INSERT INTO participants (`name`,`stock_quantity`,`price`,`description`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}')";
+  ➜  39▕         unlink("product.txt");
+     40▕  
+     41▕         if($conn->query($sql)===TRUE) {
+     42▕          echo "New record created successfully";
+     43▕         } else {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:39
+      unlink("product.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   mysqli_sql_exception 
+
+  Unknown column 'stock_quantity' in 'field list'
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:41
+     37▕         
+     38▕         $sql ="INSERT INTO participants (`name`,`stock_quantity`,`price`,`description`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}')";
+     39▕         unlink("products.txt");
+     40▕  
+  ➜  41▕         if($conn->query($sql)===TRUE) {
+     42▕          echo "New record created successfully";
+     43▕         } else {
+     44▕          echo "Error".$sql. "<br>". $conn->error;
+     45▕         }
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:41
+      mysqli::query("INSERT INTO participants (`name`,`stock_quantity`,`price`,`description`) VALUES ('Samosas','100','500',' They are nice and made of meat
+')")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+New record created successfullyNew record created successfullyFile doesnot existFile doesnot exist
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`price`,`description`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}')";
+     41▕         unlink("products.txt");
+     42▕  
+     43▕         if($conn->query($sql)===TRUE) {
+     44▕          echo "New record created successfully";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`price`,`description`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}')";
+     41▕         unlink("products.txt");
+     42▕  
+     43▕         if($conn->query($sql)===TRUE) {
+     44▕          echo "New record created successfully";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`price`,`description`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}')";
+     41▕         unlink("products.txt");
+     42▕  
+     43▕         if($conn->query($sql)===TRUE) {
+     44▕          echo "New record created successfully";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`price`,`description`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}')";
+     41▕         unlink("products.txt");
+     42▕  
+     43▕         if($conn->query($sql)===TRUE) {
+     44▕          echo "New record created successfully";
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+New record created successfullyFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existNew record created successfully
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[1]}','{$product_array[2]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}','{$product_array[0]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[1]}','{$product_array[2]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}','{$product_array[0]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[1]}','{$product_array[2]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}','{$product_array[0]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+New record created successfullyFile doesnot exist
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+New record created successfully
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   mysqli_sql_exception 
+
+  No connection could be made because the target machine actively refused it
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:31
+     27▕      * @return int
+     28▕      */
+     29▕     public function handle()
+     30▕     {
+  ➜  31▕         $conn= new mysqli('localhost','root','','myanka');
+     32▕         
+     33▕         if(file_exists("products.txt")){
+     34▕          $product_details=file_get_contents("products.txt");
+     35▕         } else {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:31
+      mysqli::__construct("localhost", "root", "", "myanka")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+File doesnot exist
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ParseError 
+
+  syntax error, unexpected variable "$sql"
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\addStock.php:42
+     38▕         $qt_details=explode(";",$addquantity);
+     39▕ 
+     40▕         $sql2="SELECT `stock_quantity`,`quantity_published` FROM products WHERE `participant_id`='{$qt_details[1]}'";
+     41▕         $ar
+  ➜  42▕         $sql ="INSERT INTO products (`stock_quantity`,`quantity_published`) VALUES('') WHERE `participant_id`='{$qt_details[1]}'";
+     43▕         
+     44▕  
+     45▕         if($conn->query($sql)===TRUE) {
+     46▕          echo "Stock quantity added";
+
+  1   C:\xampp\htdocs\anka\vendor\composer\ClassLoader.php:428
+      Composer\Autoload\includeFile("C:\xampp\htdocs\anka\vendor\composer/../../app/Console/Commands/addStock.php")
+
+  2   [internal]:0
+      Composer\Autoload\ClassLoader::loadClass("App\Console\Commands\addStock")
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  unlink(products.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:42
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+     40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+  ➜  42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "New record created successfully";
+     46▕         } else {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:42
+      unlink("products.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  unlink(products.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:42
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+     40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+  ➜  42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "New record created successfully";
+     46▕         } else {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:42
+      unlink("products.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  unlink(products.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:42
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+     40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+  ➜  42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "New record created successfully";
+     46▕         } else {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:42
+      unlink("products.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  unlink(products.txt): Resource temporarily unavailable
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:42
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+     40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+  ➜  42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+     45▕          echo "New record created successfully";
+     46▕         } else {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:42
+      unlink("products.txt")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+New record created successfullyFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot exist
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+New record created successfully
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+File doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot exist
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+New record created successfullyFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot exist
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+
+   ErrorException 
+
+  Undefined array key 1
+
+  at C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+     36▕             die("File doesnot exist");
+     37▕         }
+     38▕         $product_array=explode(";",$product_details);
+     39▕         
+  ➜  40▕         $sql ="INSERT INTO products (`name`,`stock_quantity`,`quantity_published`,`price`,`description`,`participant_id`) VALUES ('{$product_array[0]}','{$product_array[1]}','{$product_array[1]}','{$product_array[2]}','{$product_array[3]}','{$product_array[4]}')";
+     41▕         gc_collect_cycles();
+     42▕         unlink("products.txt");
+     43▕  
+     44▕         if($conn->query($sql)===TRUE) {
+
+  1   C:\xampp\htdocs\anka\app\Console\Commands\product.php:40
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Undefined array key 1", "C:\xampp\htdocs\anka\app\Console\Commands\product.php")
+
+  2   C:\xampp\htdocs\anka\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\product::handle()
+New record created successfullyFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot existFile doesnot exist
